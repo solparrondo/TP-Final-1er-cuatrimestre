@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
 
     public float movementSpeed;
+    public GameObject comida;
 
     // Start is called before the first frame update
     void Start()
@@ -36,8 +37,9 @@ public class PlayerMovement : MonoBehaviour
             transform.Translate(movementSpeed, 0, 0);
         }
 
+       
     }
 
-    
+
 
 }
