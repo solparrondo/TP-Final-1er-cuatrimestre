@@ -201,7 +201,7 @@ Transform:
   m_LocalScale: {x: 0.42151585, y: 1, z: 3.1068277}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 42
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 89.58301, z: 0}
 --- !u!1 &39758634
 GameObject:
@@ -288,7 +288,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 39758634}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 100.07, y: 0.64, z: 3.03}
+  m_LocalPosition: {x: 100.07, y: 0.7, z: 2.11}
   m_LocalScale: {x: 0.42151585, y: 1.3337, z: 2.4515467}
   m_Children: []
   m_Father: {fileID: 0}
@@ -383,7 +383,7 @@ Transform:
   m_LocalScale: {x: 0.42151585, y: 1, z: 3.1068277}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 46
+  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 89.58301, z: 0}
 --- !u!1 &68216960
 GameObject:
@@ -491,7 +491,7 @@ GameObject:
   - component: {fileID: 80340888}
   m_Layer: 0
   m_Name: ComidaEspecial (14)
-  m_TagString: Untagged
+  m_TagString: Comida Especial
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -577,7 +577,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 80340887}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 101.95, y: 0.69, z: 4.08}
+  m_LocalPosition: {x: 101.95, y: 0.7, z: 4.08}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
@@ -689,7 +689,7 @@ GameObject:
   - component: {fileID: 103976506}
   m_Layer: 0
   m_Name: Comida (16)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -773,11 +773,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103976505}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 91.47, y: 0.69, z: 3.49}
+  m_LocalPosition: {x: 91.47, y: 0.7, z: 3.49}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 59
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &143328738
 GameObject:
@@ -868,7 +868,7 @@ Transform:
   m_LocalScale: {x: 0.42151585, y: 1, z: 3.1068277}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 43
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 89.58301, z: 0}
 --- !u!1 &170076733
 GameObject:
@@ -939,111 +939,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 34.677002, y: -30.000002, z: 0}
---- !u!1 &175384000
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 175384005}
-  - component: {fileID: 175384004}
-  - component: {fileID: 175384003}
-  - component: {fileID: 175384002}
-  - component: {fileID: 175384001}
-  m_Layer: 0
-  m_Name: Comida (34)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &175384001
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 175384000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27efb453b8341794eaec38ae924e0f91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!136 &175384002
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 175384000}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &175384003
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 175384000}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &175384004
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 175384000}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &175384005
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 175384000}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 99.4, y: 0.69, z: -3.08}
-  m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 73
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &183678366
 GameObject:
   m_ObjectHideFlags: 0
@@ -1059,7 +954,7 @@ GameObject:
   - component: {fileID: 183678367}
   m_Layer: 0
   m_Name: Comida (42)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1143,7 +1038,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 183678366}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 100.05, y: 0.69, z: -12.18}
+  m_LocalPosition: {x: 100.05, y: 0.7, z: -12.18}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1164,7 +1059,7 @@ GameObject:
   - component: {fileID: 193154894}
   m_Layer: 0
   m_Name: Comida (13)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1248,11 +1143,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 193154893}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 91.47, y: 0.69, z: -6.91}
+  m_LocalPosition: {x: 91.47, y: 0.7, z: -6.91}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 57
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &208861310
 GameObject:
@@ -1434,7 +1329,7 @@ Transform:
   m_LocalScale: {x: 0.42151585, y: 1, z: 3.1068277}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 89.58301, z: 0}
 --- !u!1 &218902247
 GameObject:
@@ -1451,7 +1346,7 @@ GameObject:
   - component: {fileID: 218902248}
   m_Layer: 0
   m_Name: Comida (4)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1535,11 +1430,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 218902247}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 103.11, y: 0.69, z: -7.15}
+  m_LocalPosition: {x: 103.11, y: 0.7, z: -7.15}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 50
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &243936109
 GameObject:
@@ -1556,7 +1451,7 @@ GameObject:
   - component: {fileID: 243936114}
   m_Layer: 0
   m_Name: ComidaEspecial (12)
-  m_TagString: Untagged
+  m_TagString: Comida Especial
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1628,7 +1523,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 243936109}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 91.49, y: 0.69, z: 11.76}
+  m_LocalPosition: {x: 91.49, y: 0.7, z: 11.76}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1824,7 +1719,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 325469194}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 97.25, y: 0.64, z: -1.9147599}
+  m_LocalPosition: {x: 97.25, y: 0.64, z: -3.95}
   m_LocalScale: {x: 0.42421356, y: 1.3337, z: 6.0814314}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1919,7 +1814,7 @@ Transform:
   m_LocalScale: {x: 0.42151585, y: 1, z: 3.1068277}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 45
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 89.58301, z: 0}
 --- !u!1 &349150440
 GameObject:
@@ -1936,7 +1831,7 @@ GameObject:
   - component: {fileID: 349150441}
   m_Layer: 0
   m_Name: Comida (25)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2020,11 +1915,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 349150440}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 98.64, y: 0.69, z: 9.95}
+  m_LocalPosition: {x: 98.3, y: 0.7, z: 9.74}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 65
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &380385882
 GameObject:
@@ -2041,7 +1936,7 @@ GameObject:
   - component: {fileID: 380385887}
   m_Layer: 0
   m_Name: ComidaEspecial (10)
-  m_TagString: Untagged
+  m_TagString: Comida Especial
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2113,7 +2008,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 380385882}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 103.07, y: 0.69, z: -16.7}
+  m_LocalPosition: {x: 103.07, y: 0.7, z: -16.7}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2148,7 +2043,7 @@ GameObject:
   - component: {fileID: 404447965}
   m_Layer: 0
   m_Name: Comida (31)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2232,11 +2127,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 404447964}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 95.46, y: 0.69, z: -0.4}
+  m_LocalPosition: {x: 95.46, y: 0.7, z: 0.08}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 70
+  m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &407441698
 GameObject:
@@ -2435,7 +2330,7 @@ GameObject:
   - component: {fileID: 459928419}
   m_Layer: 0
   m_Name: ComidaEspecial (13)
-  m_TagString: Untagged
+  m_TagString: Comida Especial
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2507,7 +2402,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 459928414}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 103.43, y: 0.69, z: 11.76}
+  m_LocalPosition: {x: 103.43, y: 0.7, z: 11.76}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2633,7 +2528,7 @@ GameObject:
   - component: {fileID: 501247671}
   m_Layer: 0
   m_Name: Comida (33)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2717,11 +2612,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 501247670}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 97.47, y: 0.69, z: -3.08}
+  m_LocalPosition: {x: 97.8, y: 0.7, z: -5.12}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 72
+  m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &546015049
 GameObject:
@@ -2738,7 +2633,7 @@ GameObject:
   - component: {fileID: 546015050}
   m_Layer: 0
   m_Name: Comida (39)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2822,7 +2717,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 546015049}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 94.95, y: 0.69, z: -12.2}
+  m_LocalPosition: {x: 94.95, y: 0.7, z: -12.2}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2917,7 +2812,7 @@ Transform:
   m_LocalScale: {x: 0.42151585, y: 1, z: 3.1068277}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 44
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 89.58301, z: 0}
 --- !u!1 &601347919
 GameObject:
@@ -2934,7 +2829,7 @@ GameObject:
   - component: {fileID: 601347920}
   m_Layer: 0
   m_Name: Comida
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3018,11 +2913,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 601347919}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 103.11, y: 0.69, z: 3.3282332}
+  m_LocalPosition: {x: 103.11, y: 0.7, z: 3.3282332}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 47
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &603818841
 GameObject:
@@ -3039,7 +2934,7 @@ GameObject:
   - component: {fileID: 603818842}
   m_Layer: 0
   m_Name: Comida (6)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3123,11 +3018,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 603818841}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 103.11, y: 0.69, z: -12.89}
+  m_LocalPosition: {x: 103.11, y: 0.7, z: -12.89}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 52
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &611017317
 GameObject:
@@ -3144,7 +3039,7 @@ GameObject:
   - component: {fileID: 611017318}
   m_Layer: 0
   m_Name: Comida (10)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3228,11 +3123,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 611017317}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 91.47, y: 0.69, z: -14.38}
+  m_LocalPosition: {x: 91.47, y: 0.7, z: -14.38}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 54
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &644310262
 GameObject:
@@ -3249,7 +3144,7 @@ GameObject:
   - component: {fileID: 644310263}
   m_Layer: 0
   m_Name: Comida (41)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3333,7 +3228,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 644310262}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 100.05, y: 0.69, z: -10.36}
+  m_LocalPosition: {x: 100.05, y: 0.7, z: -10.74}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3355,7 +3250,7 @@ GameObject:
   - component: {fileID: 646158052}
   m_Layer: 0
   m_Name: Comida (22)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3451,11 +3346,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 646158051}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 103.31, y: 0.69, z: 13.85}
+  m_LocalPosition: {x: 103.31, y: 0.7, z: 13.85}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 63
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &672261090
 GameObject:
@@ -3472,7 +3367,7 @@ GameObject:
   - component: {fileID: 672261091}
   m_Layer: 0
   m_Name: Comida (11)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3556,11 +3451,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 672261090}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 91.47, y: 0.69, z: -12.62}
+  m_LocalPosition: {x: 91.47, y: 0.7, z: -12.62}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 55
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &704491916
 GameObject:
@@ -3739,7 +3634,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711128443}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 97.2741, y: 0.64, z: 7.7813406}
+  m_LocalPosition: {x: 97.2741, y: 0.64, z: 8.23}
   m_LocalScale: {x: 0.42151585, y: 1.3337, z: 6.0814314}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4106,7 +4001,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 819366802}
   m_LocalRotation: {x: 0.4413423, y: -0.5524645, z: 0.4413423, w: 0.5524645}
-  m_LocalPosition: {x: 102.85, y: 22.43, z: 1.4}
+  m_LocalPosition: {x: 102.7, y: 21.5, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4197,7 +4092,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 829926821}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 94.45, y: 0.64, z: 9.22}
+  m_LocalPosition: {x: 94.45, y: 0.64, z: 9.668659}
   m_LocalScale: {x: 0.42151585, y: 1.3337, z: 2.4515467}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4218,7 +4113,7 @@ GameObject:
   - component: {fileID: 845692924}
   m_Layer: 0
   m_Name: Comida (12)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4302,11 +4197,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 845692923}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 91.47, y: 0.69, z: -8.97}
+  m_LocalPosition: {x: 91.47, y: 0.7, z: -8.97}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 56
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &851619981
 GameObject:
@@ -4488,7 +4383,7 @@ Transform:
   m_LocalScale: {x: 0.42151585, y: 1, z: 3.1068277}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 89.58301, z: 0}
 --- !u!1 &871036881
 GameObject:
@@ -4505,7 +4400,7 @@ GameObject:
   - component: {fileID: 871036882}
   m_Layer: 0
   m_Name: Comida (1)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4589,11 +4484,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 871036881}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 103.11, y: 0.69, z: 5.02}
+  m_LocalPosition: {x: 103.11, y: 0.7, z: 5.02}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 48
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &929813128
 GameObject:
@@ -4610,7 +4505,7 @@ GameObject:
   - component: {fileID: 929813129}
   m_Layer: 0
   m_Name: Comida (38)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4694,7 +4589,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 929813128}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 97.87, y: 0.69, z: -12.2}
+  m_LocalPosition: {x: 97.87, y: 0.7, z: -12.2}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4715,7 +4610,7 @@ GameObject:
   - component: {fileID: 942671825}
   m_Layer: 0
   m_Name: Comida (14)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4799,11 +4694,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942671824}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 91.47, y: 0.69, z: -3.02}
+  m_LocalPosition: {x: 91.47, y: 0.7, z: -3.02}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 58
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &945394038
 GameObject:
@@ -4820,7 +4715,7 @@ GameObject:
   - component: {fileID: 945394039}
   m_Layer: 0
   m_Name: Comida (30)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4904,11 +4799,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 945394038}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 97.23, y: 0.69, z: -0.4}
+  m_LocalPosition: {x: 97.23, y: 0.7, z: 0.08000001}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 69
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &955227291
 GameObject:
@@ -4925,7 +4820,7 @@ GameObject:
   - component: {fileID: 955227292}
   m_Layer: 0
   m_Name: Comida (21)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5009,11 +4904,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 955227291}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 91.47, y: 0.69, z: 13.85}
+  m_LocalPosition: {x: 91.47, y: 0.7, z: 13.85}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 62
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1005071817
 GameObject:
@@ -5030,7 +4925,7 @@ GameObject:
   - component: {fileID: 1005071818}
   m_Layer: 0
   m_Name: Comida (3)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5114,11 +5009,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1005071817}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 103.11, y: 0.69, z: -2.65}
+  m_LocalPosition: {x: 103.11, y: 0.7, z: -2.65}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 49
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1039790378
 GameObject:
@@ -5205,7 +5100,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1039790378}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 94.7, y: 0.64, z: 3.03}
+  m_LocalPosition: {x: 94.7, y: 0.7, z: 2.11}
   m_LocalScale: {x: 0.42151585, y: 1.3337, z: 2.4515467}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5296,7 +5191,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1076772234}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 100.1, y: 0.64, z: 9.18}
+  m_LocalPosition: {x: 100.1, y: 0.64, z: 9.628659}
   m_LocalScale: {x: 0.42151585, y: 1.3337, z: 2.4515467}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5366,7 +5261,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1160669130
 GameObject:
@@ -5453,7 +5348,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1160669130}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 96.009995, y: 0.64, z: 2.02}
+  m_LocalPosition: {x: 96.009995, y: 0.64, z: 1.0999999}
   m_LocalScale: {x: 0.42151585, y: 1.3337, z: 2.381671}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5474,7 +5369,7 @@ GameObject:
   - component: {fileID: 1180389885}
   m_Layer: 0
   m_Name: Comida (35)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5558,7 +5453,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1180389884}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 99.4, y: 0.69, z: -5.73}
+  m_LocalPosition: {x: 99.4, y: 0.7, z: -7.67}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5579,7 +5474,7 @@ GameObject:
   - component: {fileID: 1193749672}
   m_Layer: 0
   m_Name: Comida (32)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5663,11 +5558,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1193749671}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 95.46, y: 0.69, z: -3.08}
+  m_LocalPosition: {x: 96.36, y: 0.7, z: -5.12}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 71
+  m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1229835556
 GameObject:
@@ -5684,7 +5579,7 @@ GameObject:
   - component: {fileID: 1229835557}
   m_Layer: 0
   m_Name: Comida (18)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5768,11 +5663,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1229835556}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 91.47, y: 0.69, z: 5.23}
+  m_LocalPosition: {x: 91.47, y: 0.7, z: 5.23}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 60
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1250631595
 GameObject:
@@ -5789,7 +5684,7 @@ GameObject:
   - component: {fileID: 1250631600}
   m_Layer: 0
   m_Name: ComidaEspecial (6)
-  m_TagString: Untagged
+  m_TagString: Comida Especial
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5861,7 +5756,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1250631595}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 92.31, y: 0.69, z: -8.08}
+  m_LocalPosition: {x: 92.31, y: 0.7, z: -8.08}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5896,7 +5791,7 @@ GameObject:
   - component: {fileID: 1257662097}
   m_Layer: 0
   m_Name: ComidaEspecial (11)
-  m_TagString: Untagged
+  m_TagString: Comida Especial
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5968,7 +5863,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257662092}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 91.5, y: 0.69, z: -16.7}
+  m_LocalPosition: {x: 91.5, y: 0.7, z: -16.7}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6073,7 +5968,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1259555047}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 97.28743, y: 0.64, z: 5.86074}
+  m_LocalPosition: {x: 97.28743, y: 0.64, z: 5.66}
   m_LocalScale: {x: 0.42151585, y: 1.3337, z: 6.0814314}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6094,7 +5989,7 @@ GameObject:
   - component: {fileID: 1266699347}
   m_Layer: 0
   m_Name: Comida (5)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6178,12 +6073,112 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1266699346}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 103.11, y: 0.69, z: -8.69}
+  m_LocalPosition: {x: 103.11, y: 0.7, z: -8.69}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 51
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1283180919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1283180923}
+  - component: {fileID: 1283180922}
+  - component: {fileID: 1283180921}
+  - component: {fileID: 1283180920}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1283180920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283180919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1283180921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283180919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &1283180922
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283180919}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1283180923
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283180919}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1392599210}
+  - {fileID: 1315466968}
+  m_Father: {fileID: 0}
+  m_RootOrder: 95
+  m_LocalEulerAnglesHint: {x: -34.877003, y: 360, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &1288047794
 GameObject:
   m_ObjectHideFlags: 0
@@ -6275,6 +6270,232 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1299434225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6141786515236003650, guid: dbe3ef5291b63784dab4d0fc84befc7e,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1299434232}
+  - component: {fileID: 1299434231}
+  - component: {fileID: 1299434230}
+  - component: {fileID: 1299434229}
+  - component: {fileID: 1299434228}
+  - component: {fileID: 1299434227}
+  - component: {fileID: 1299434226}
+  m_Layer: 0
+  m_Name: PersonajePrincipal
+  m_TagString: "Mu\xF1eco"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1299434226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6141786515236003658, guid: dbe3ef5291b63784dab4d0fc84befc7e,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299434225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9534ee8e115ad214da90bc33e7390976, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cantVidas: {fileID: 1392599211}
+  "mu\xF1ecoToClone": {fileID: 6141786515236003650, guid: dbe3ef5291b63784dab4d0fc84befc7e,
+    type: 3}
+  enemigoToClone: {fileID: 9027610079225659678, guid: 5306482f33800f243bd149920c84a315,
+    type: 3}
+  "mu\xF1eco": {fileID: 1299434225}
+  enemigo: {fileID: 1844759514}
+--- !u!114 &1299434227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6141786515236003657, guid: dbe3ef5291b63784dab4d0fc84befc7e,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299434225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beec8e35f449e5c40a8dbb7afbc52816, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &1299434228
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6141786515236003663, guid: dbe3ef5291b63784dab4d0fc84befc7e,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299434225}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!65 &1299434229
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6141786515236003651, guid: dbe3ef5291b63784dab4d0fc84befc7e,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299434225}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1299434230
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6141786515236003660, guid: dbe3ef5291b63784dab4d0fc84befc7e,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299434225}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1299434231
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6141786515236003661, guid: dbe3ef5291b63784dab4d0fc84befc7e,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299434225}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1299434232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6141786515236003662, guid: dbe3ef5291b63784dab4d0fc84befc7e,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299434225}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 97.32, y: 0.64, z: -16.302}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 37
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1315466967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1315466968}
+  - component: {fileID: 1315466970}
+  - component: {fileID: 1315466969}
+  m_Layer: 5
+  m_Name: Puntaje
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1315466968
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315466967}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 108}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1283180923}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 58.9, y: -124.3}
+  m_SizeDelta: {x: 160, y: 27.017021}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1315466969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315466967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 8
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Puntaje: '
+--- !u!222 &1315466970
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315466967}
+  m_CullTransparentMesh: 0
 --- !u!1 &1378003733
 GameObject:
   m_ObjectHideFlags: 0
@@ -6290,7 +6511,7 @@ GameObject:
   - component: {fileID: 1378003738}
   m_Layer: 0
   m_Name: ComidaEspecial (2)
-  m_TagString: Untagged
+  m_TagString: Comida Especial
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6362,7 +6583,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1378003733}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 95.99, y: 0.69, z: 3.43}
+  m_LocalPosition: {x: 95.99, y: 0.7, z: 2.39}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6397,7 +6618,7 @@ GameObject:
   - component: {fileID: 1388640160}
   m_Layer: 0
   m_Name: Comida (24)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6481,12 +6702,89 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1388640159}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 103.31, y: 0.69, z: 9.95}
+  m_LocalPosition: {x: 103.31, y: 0.7, z: 9.95}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 64
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1392599209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1392599210}
+  - component: {fileID: 1392599212}
+  - component: {fileID: 1392599211}
+  m_Layer: 5
+  m_Name: CantVidas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1392599210
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392599209}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 108}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1283180923}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -38, y: -145.2}
+  m_SizeDelta: {x: 396.41934, y: 58.149063}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1392599211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392599209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Cantidad de vidas: \u2661 \u2661 \u2661"
+--- !u!222 &1392599212
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392599209}
+  m_CullTransparentMesh: 0
 --- !u!1 &1451347460
 GameObject:
   m_ObjectHideFlags: 0
@@ -6502,7 +6800,7 @@ GameObject:
   - component: {fileID: 1451347465}
   m_Layer: 0
   m_Name: ComidaEspecial (8)
-  m_TagString: Untagged
+  m_TagString: Comida Especial
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6574,7 +6872,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1451347460}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 98.01, y: 0.69, z: -5.95}
+  m_LocalPosition: {x: 98.01, y: 0.7, z: -7.89}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6609,7 +6907,7 @@ GameObject:
   - component: {fileID: 1462000028}
   m_Layer: 0
   m_Name: Comida (26)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6693,11 +6991,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1462000027}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 96.46, y: 0.69, z: 9.95}
+  m_LocalPosition: {x: 96.12, y: 0.7, z: 9.74}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 66
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1471095875
 GameObject:
@@ -6714,7 +7012,7 @@ GameObject:
   - component: {fileID: 1471095876}
   m_Layer: 0
   m_Name: Comida (19)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6798,11 +7096,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1471095875}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 91.47, y: 0.69, z: 10.07}
+  m_LocalPosition: {x: 91.47, y: 0.7, z: 10.07}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 61
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1512170124
 GameObject:
@@ -6910,7 +7208,7 @@ GameObject:
   - component: {fileID: 1529177645}
   m_Layer: 0
   m_Name: ComidaEspecial (1)
-  m_TagString: Untagged
+  m_TagString: Comida Especial
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6982,7 +7280,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1529177640}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 103.06, y: 0.69, z: -0.7}
+  m_LocalPosition: {x: 103.06, y: 0.7, z: -0.7}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7178,7 +7476,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1601758242}
   m_LocalRotation: {x: -0, y: 0.408735, z: -0, w: 0.91265315}
-  m_LocalPosition: {x: 95.42025, y: 0.64, z: -6.54}
+  m_LocalPosition: {x: 95.451, y: 0.64, z: -8.6}
   m_LocalScale: {x: 0.42151585, y: 1.3800747, z: 2.5436764}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7197,8 +7495,8 @@ GameObject:
   - component: {fileID: 1604840168}
   - component: {fileID: 1604840167}
   - component: {fileID: 1604840171}
-  - component: {fileID: 1604840172}
   - component: {fileID: 1604840173}
+  - component: {fileID: 1604840174}
   m_Layer: 0
   m_Name: PersonajePrincipal
   m_TagString: "Mu\xF1eco"
@@ -7276,7 +7574,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1604840171
 Rigidbody:
@@ -7289,23 +7587,11 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &1604840172
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1604840166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 972de830f96e92345977fba72e479338, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1604840173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7318,8 +7604,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beec8e35f449e5c40a8dbb7afbc52816, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 0.2
-  comida: {fileID: 0}
+--- !u!114 &1604840174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604840166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9534ee8e115ad214da90bc33e7390976, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cantVidas: {fileID: 1392599211}
+  "mu\xF1ecoToClone": {fileID: 6141786515236003650, guid: dbe3ef5291b63784dab4d0fc84befc7e,
+    type: 3}
+  enemigoToClone: {fileID: 9027610079225659678, guid: 5306482f33800f243bd149920c84a315,
+    type: 3}
+  "mu\xF1eco": {fileID: 1604840166}
+  enemigo: {fileID: 1844759514}
 --- !u!1 &1605925690
 GameObject:
   m_ObjectHideFlags: 0
@@ -7405,7 +7708,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1605925690}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 98.675, y: 0.64, z: 4.05}
+  m_LocalPosition: {x: 98.675, y: 0.7, z: 3.1300004}
   m_LocalScale: {x: 0.42151585, y: 1.3337, z: 2.381671}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7426,7 +7729,7 @@ GameObject:
   - component: {fileID: 1620617452}
   m_Layer: 0
   m_Name: Comida (28)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7510,11 +7813,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620617451}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 98.86, y: 0.69, z: 2.62}
+  m_LocalPosition: {x: 98.86, y: 0.7, z: 2.1}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 67
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1636101983
 GameObject:
@@ -7531,7 +7834,7 @@ GameObject:
   - component: {fileID: 1636101988}
   m_Layer: 0
   m_Name: ComidaEspecial (3)
-  m_TagString: Untagged
+  m_TagString: Comida Especial
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7603,7 +7906,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1636101983}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 92.63, y: 0.69, z: 4.21}
+  m_LocalPosition: {x: 92.63, y: 0.7, z: 4.21}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7707,13 +8010,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1660993618}
-  m_LocalRotation: {x: -0, y: -0.54200864, z: -0, w: 0.8403729}
-  m_LocalPosition: {x: 95.44, y: 0.64, z: -5.26}
+  m_LocalRotation: {x: -0, y: -0.44701022, z: -0, w: 0.8945289}
+  m_LocalPosition: {x: 95.49, y: 0.64, z: -7.21}
   m_LocalScale: {x: 0.42151585, y: 1.3800747, z: 2.5436764}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 24
-  m_LocalEulerAnglesHint: {x: 0, y: -65.64101, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -53.104004, z: 0}
 --- !u!1 &1739082207
 GameObject:
   m_ObjectHideFlags: 0
@@ -7799,7 +8102,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1739082207}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 97.340805, y: 0.64, z: 3.03}
+  m_LocalPosition: {x: 97.340805, y: 0.7, z: 2.11}
   m_LocalScale: {x: 0.42151585, y: 1.3337, z: 2.4515467}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7890,7 +8193,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1806717853}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 97.354095, y: 0.64, z: -4.48876}
+  m_LocalPosition: {x: 97.354095, y: 0.64, z: -6.42}
   m_LocalScale: {x: 0.42151585, y: 1.3337, z: 6.0814314}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7911,7 +8214,7 @@ GameObject:
   - component: {fileID: 1827981739}
   m_Layer: 0
   m_Name: ComidaEspecial (4)
-  m_TagString: Untagged
+  m_TagString: Comida Especial
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7983,7 +8286,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827981734}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 91.42, y: 0.69, z: -1.17}
+  m_LocalPosition: {x: 91.42, y: 0.7, z: -1.17}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8003,6 +8306,130 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToClone: {fileID: 6851064143896598884, guid: 787894ca8bdcfe242bb3343dc790e9e1,
     type: 3}
+--- !u!1 &1844759514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1844759520}
+  - component: {fileID: 1844759519}
+  - component: {fileID: 1844759518}
+  - component: {fileID: 1844759517}
+  - component: {fileID: 1844759516}
+  - component: {fileID: 1844759515}
+  m_Layer: 0
+  m_Name: Enemigo
+  m_TagString: Enemigo
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1844759515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844759514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18364dd30ead3f94f85f71f07821dc1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1604840170}
+  targetTR: {fileID: 1604840170}
+  targetTRR: {fileID: 1604840170}
+--- !u!54 &1844759516
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844759514}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!65 &1844759517
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844759514}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1844759518
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844759514}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b43246ff3f9f94043a506f5872051f7b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1844759519
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844759514}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1844759520
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844759514}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 97.32, y: 0.64, z: -2.64}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 96
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1879696957
 GameObject:
   m_ObjectHideFlags: 0
@@ -8180,7 +8607,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881308959}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 97.3808, y: 0.64, z: -7.5399995}
+  m_LocalPosition: {x: 97.3808, y: 0.64, z: -9.471239}
   m_LocalScale: {x: 0.42151585, y: 1.3337, z: 6.0814314}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8271,7 +8698,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1889822018}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 100.08, y: 0.64, z: -0.62}
+  m_LocalPosition: {x: 100.08, y: 0.64, z: -2.75524}
   m_LocalScale: {x: 0.42151585, y: 1.3337, z: 2.4515467}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8292,7 +8719,7 @@ GameObject:
   - component: {fileID: 1908246086}
   m_Layer: 0
   m_Name: ComidaEspecial (7)
-  m_TagString: Untagged
+  m_TagString: Comida Especial
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8364,7 +8791,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1908246081}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 101.84, y: 0.69, z: -8.08}
+  m_LocalPosition: {x: 101.84, y: 0.7, z: -8.08}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8490,7 +8917,7 @@ GameObject:
   - component: {fileID: 1939779531}
   m_Layer: 0
   m_Name: Comida (7)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8574,11 +9001,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1939779530}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 103.11, y: 0.69, z: -14.83}
+  m_LocalPosition: {x: 103.11, y: 0.7, z: -14.83}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 53
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1969675262
 GameObject:
@@ -8756,7 +9183,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1997432714}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 97.259995, y: 0.64, z: 0.76}
+  m_LocalPosition: {x: 97.259995, y: 0.64, z: -1.3752401}
   m_LocalScale: {x: 0.42151585, y: 1.3337, z: 6.0814314}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8777,7 +9204,7 @@ GameObject:
   - component: {fileID: 2000203429}
   m_Layer: 0
   m_Name: Comida (40)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8861,7 +9288,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2000203428}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 94.95, y: 0.69, z: -10.36}
+  m_LocalPosition: {x: 94.95, y: 0.7, z: -10.91}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8956,7 +9383,7 @@ Transform:
   m_LocalScale: {x: 0.42151585, y: 1, z: 3.1068277}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 89.58301, z: 0}
 --- !u!1 &2082496563
 GameObject:
@@ -8973,7 +9400,7 @@ GameObject:
   - component: {fileID: 2082496568}
   m_Layer: 0
   m_Name: ComidaEspecial (5)
-  m_TagString: Untagged
+  m_TagString: Comida Especial
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9045,7 +9472,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082496563}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 92.31, y: 0.69, z: -8.08}
+  m_LocalPosition: {x: 92.31, y: 0.7, z: -8.08}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9080,7 +9507,7 @@ GameObject:
   - component: {fileID: 2085309485}
   m_Layer: 0
   m_Name: Comida (29)
-  m_TagString: Untagged
+  m_TagString: Comida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9164,11 +9591,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2085309484}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 98.86, y: 0.69, z: -0.4}
+  m_LocalPosition: {x: 98.86, y: 0.7, z: 0.08000001}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 68
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2094721860
 GameObject:
@@ -9276,7 +9703,7 @@ GameObject:
   - component: {fileID: 2113689808}
   m_Layer: 0
   m_Name: ComidaEspecial (9)
-  m_TagString: Untagged
+  m_TagString: Comida Especial
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9348,7 +9775,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2113689803}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 97.71, y: 0.69, z: -10.12}
+  m_LocalPosition: {x: 97.7, y: 0.7, z: -10.91}
   m_LocalScale: {x: 0.6505713, y: 0.6505713, z: 0.6505713}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9390,6 +9817,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6851064143896598884, guid: 787894ca8bdcfe242bb3343dc790e9e1,
+        type: 3}
+      propertyPath: m_TagString
+      value: Comida Especial
+      objectReference: {fileID: 0}
     - target: {fileID: 6851064143896598888, guid: 787894ca8bdcfe242bb3343dc790e9e1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9398,7 +9830,7 @@ PrefabInstance:
     - target: {fileID: 6851064143896598888, guid: 787894ca8bdcfe242bb3343dc790e9e1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.69
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 6851064143896598888, guid: 787894ca8bdcfe242bb3343dc790e9e1,
         type: 3}

@@ -6,6 +6,9 @@ public class FoodInstantiateAndCollision : MonoBehaviour
 {
 
     public GameObject objectToClone;
+    float positionY = 0.7f;
+   
+    
 
     // Start is called before the first frame update
     void Start()
@@ -25,17 +28,20 @@ public class FoodInstantiateAndCollision : MonoBehaviour
         {
             Destroy(gameObject);
             SieteInstantiate();
+           
         }
     }
 
     public void SieteInstantiate()
     {
-        int counter = 0;
-        while (counter < 7)
+        Instantiate(objectToClone);
+        for (int z = -16; z < 11; z += 4)
         {
-            Instantiate(objectToClone);
-            //objectToClone.transform.position()
-            counter++;
+            for (int x = 92; x < 103; x += 2)
+            {
+                objectToClone.transform.position += new Vector3(x, positionY, z);
+            }
         }
+
     }
 }

@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
-public class PlayerCollision : MonoBehaviour
+public class ButtonBehaviour : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -16,13 +18,8 @@ public class PlayerCollision : MonoBehaviour
         
     }
 
-    void OnCollisionEnter(Collision col)
+    public void changeScene()
     {
-        if(col.gameObject.name == "Pared")
-        {
-            //el muñeco debe parar
-        }
+        SceneManager.LoadScene("Juego");
     }
-
- 
 }

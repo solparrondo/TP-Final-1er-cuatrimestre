@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class FoodCollision : MonoBehaviour
 {
+
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +24,7 @@ public class FoodCollision : MonoBehaviour
         if (col.gameObject.tag == "Muñeco")
         {
             Destroy(gameObject);
+           
         }
     }
 }
