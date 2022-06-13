@@ -6,7 +6,7 @@ public class FoodInstantiateAndCollision : MonoBehaviour
 {
 
     public GameObject objectToClone;
-    float positionY = 0.7f;
+    int positionY = 1;
    
     
 
@@ -35,13 +35,9 @@ public class FoodInstantiateAndCollision : MonoBehaviour
     public void SieteInstantiate()
     {
         Instantiate(objectToClone);
-        for (int z = -16; z < 11; z += 4)
-        {
-            for (int x = 92; x < 103; x += 2)
-            {
-                objectToClone.transform.position += new Vector3(x, positionY, z);
-            }
-        }
-
+        //Random z = new Random
+   
+        objectToClone.transform.position = new Vector3(Random.Range(93, 102), positionY, Random.Range(-14, 10));
+       
     }
 }
