@@ -39,11 +39,12 @@ public class FoodInstantiateAndCollision : MonoBehaviour
         {
             Instantiate(objectToClone);
             counter++;
+            objectToClone.transform.position = new Vector3(Random.Range(93, 102), positionY, Random.Range(-14, 10));
         }
        
         //Random z = new Random
    
-        objectToClone.transform.position = new Vector3(Random.Range(93, 102), positionY, Random.Range(-14, 10));
+        
        
     }
 }

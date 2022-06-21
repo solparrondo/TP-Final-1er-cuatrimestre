@@ -8,9 +8,9 @@ public class ScoreScript : MonoBehaviour
 {
     // public AudioManager miAM;
 
-    static int puntos;
+    static int puntos = 0;
     int vidas = 3;
-    float tiempo = 0;
+    float tiempo;
     int puntaje;
 
     bool stopTiempo = false;
@@ -31,7 +31,9 @@ public class ScoreScript : MonoBehaviour
     void Start()
     {
         
+        puntos = 0;
         
+
     }
 
     // Update is called once per frame
@@ -45,7 +47,7 @@ public class ScoreScript : MonoBehaviour
         
         if (stopTiempo == false)
         {
-            tiempo = Mathf.Floor(Time.time);
+            tiempo = Mathf.Floor(Time.timeSinceLevelLoad);
         }
 
         if (gameObject.transform.position.y < fallZone) 
@@ -120,14 +122,16 @@ public class ScoreScript : MonoBehaviour
 
         txtVictoriaDerrota.text = j;
         txtPuntaje.text = "Haz obtenido " + puntos + " puntos en " + tiempo + " segundos. \nTu puntaje final es " + puntaje;
+     
    
     }
 
    public void changeScenee()
     {
-       
-       // panel.transform.position = new Vector3(0, 0, 0);
+        panel = GameObject.FindWithTag("Panel");
+        panel.transform.position = new Vector3(0, 0, 0);
         SceneManager.LoadScene("ComenzarJuego");
+       
         
     }
 
