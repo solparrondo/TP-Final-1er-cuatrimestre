@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Perseguir : MonoBehaviour
 {
-    public float speedPosition;
-    float speedRotation = 20.1f;
+   public float speedPosition;
+   float speedRotation = 20.1f;
    public Transform target;
 
    public Transform targetTR;
@@ -28,8 +28,6 @@ public class Perseguir : MonoBehaviour
          Vector3 currentEulerAngles = transform.eulerAngles;
          transform.LookAt(targetTRR);
          transform.eulerAngles = new Vector3(currentEulerAngles.x, transform.eulerAngles.y, currentEulerAngles.z);
-
-      
 
     }
 

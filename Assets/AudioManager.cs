@@ -9,6 +9,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip clipBoing;
     public AudioClip clipDerrota;
     public AudioClip clipVictoria;
+    public AudioClip clipDerrotaFinal;
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +38,12 @@ public class AudioManager : MonoBehaviour
     public void playClipVictoria()
     {
         source.clip = clipVictoria;
+        source.Play();
+    }
+
+    public void playClipDerrotaFinal()
+    {
+        source.clip = clipDerrotaFinal;
         source.Play();
     }
 }

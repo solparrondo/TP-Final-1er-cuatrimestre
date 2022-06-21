@@ -27,14 +27,20 @@ public class FoodInstantiateAndCollision : MonoBehaviour
         if (col.gameObject.tag == "Muñeco")
         {
             Destroy(gameObject);
-            SieteInstantiate();
+            DosInstantiate();
            
         }
     }
 
-    public void SieteInstantiate()
+    public void DosInstantiate()
     {
-        Instantiate(objectToClone);
+        int counter = 1;
+        while (counter <= 2)
+        {
+            Instantiate(objectToClone);
+            counter++;
+        }
+       
         //Random z = new Random
    
         objectToClone.transform.position = new Vector3(Random.Range(93, 102), positionY, Random.Range(-14, 10));

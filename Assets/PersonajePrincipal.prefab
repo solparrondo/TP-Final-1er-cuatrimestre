@@ -135,11 +135,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9534ee8e115ad214da90bc33e7390976, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cantVidas: {fileID: 0}
-  "mu\xF1ecoToClone": {fileID: 0}
+  "mu\xF1ecoToClone": {fileID: 6141786515236003650}
   enemigoToClone: {fileID: 9027610079225659678, guid: 5306482f33800f243bd149920c84a315,
     type: 3}
   "mu\xF1eco": {fileID: 6141786515236003650}
-  enemigo: {fileID: 0}
-  enemigoCloned: {x: 0, y: 0, z: 0}
-  "mu\xF1ecoCloned": {x: 0, y: 0, z: 0}
+  enemigo: {fileID: 9027610079225659678, guid: 5306482f33800f243bd149920c84a315, type: 3}
+  enemigoCloned: {x: 97, y: 1, z: 16}
+  "mu\xF1ecoCloned": {x: 97, y: 1, z: -16}
