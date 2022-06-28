@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetKey(KeyCode.UpArrow))
         {
             transform.Translate(-movementSpeed, 0, 0);
+           
         }
         
         if (Input.GetKey(KeyCode.DownArrow))
