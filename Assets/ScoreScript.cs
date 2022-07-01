@@ -30,7 +30,7 @@ public class ScoreScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        //panel.SetActive(false);
         puntos = 0;
         
 
@@ -101,12 +101,11 @@ public class ScoreScript : MonoBehaviour
        
     }
 
-
-
     public void viewPanel(string j)
     {
-        
+
         // GameObject panel = GameObject.FindGameObjectWithTag("Panel").GetComponent<>();
+        //panel.SetActive(true);
         panel = GameObject.FindWithTag("Panel");
         Text txtVictoriaDerrota = GameObject.FindGameObjectWithTag("DerrotaVictoria").GetComponent<UnityEngine.UI.Text>();
         Text txtPuntaje = GameObject.FindGameObjectWithTag("Puntaje").GetComponent<UnityEngine.UI.Text>();
@@ -117,7 +116,10 @@ public class ScoreScript : MonoBehaviour
         rt.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Left, 0, 0);
         rt.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Right, 0, 0);*/
         panel.transform.position = new Vector3(269,151,0);
-       // panel.transform.right = new Vector3(0, 0);
+       // panel.transform.right = new Vector3(0, 0, 10);
+        //panel.transform.left = new Vector3(0, 0, -10);
+
+        // panel.transform.right = new Vector3(0, 0);
 
 
         txtVictoriaDerrota.text = j;
@@ -130,6 +132,7 @@ public class ScoreScript : MonoBehaviour
     {
         panel = GameObject.FindWithTag("Panel");
         panel.transform.position = new Vector3(0, 0, 0);
+       // panel.SetActive(false);
         SceneManager.LoadScene("ComenzarJuego");
        
         
